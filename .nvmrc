@@ -1,0 +1,8 @@
+cd "C:\Users\anany\OneDrive\Documents\Java course\material-applications\example-frontend"
+
+# Create .nvmrc to specify Node version
+Set-Content -Path ".nvmrc" -Value "16"
+
+git add .
+git commit -m "specify node version 16"
+git push origin main
